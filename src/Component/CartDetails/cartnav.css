@@ -1,0 +1,120 @@
+#cart-navbar{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    display: flex;
+}
+.cart-side-1,.cart-side-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5%;
+}
+.cart-side-2{
+    justify-content: end;
+    padding-right: 5%;
+}
+.cart-details{
+    height: 2.5vw;
+    width: 50%;
+    border-radius: 0.35vw;
+    background-color: rgba(128, 128, 128, 0.486);
+    display: flex;
+}
+.detail-box1, .detail-box2, .detail-box3{
+    color: aliceblue;
+    font-size: 0.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    font-weight: 600;
+}
+.detail-box1{
+    width: 65%;
+}
+.detail-box2{
+    width: 10%;
+    color: rgb(133, 133, 133);
+    font-size: 1.2vw;
+}
+.detail-box3{
+    width: 25%;
+    color: rgb(206, 206, 206);
+}
+
+
+/* Section */
+
+#card-section-main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart-info{
+    width: 70%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+.form-box{
+    width: 70%;
+    min-height: 100vh;
+    background-color: FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgb(199, 199, 199);
+}
+.summary-box{
+    width: 25%;
+    min-height: 100vh;
+    padding: 0px 12px;
+}
+.summary-internal-box{
+    padding: 2px 10px;
+    border: 1px solid rgb(193, 191, 181);
+    background-color: #FAFAFA;
+    border-radius: 4px;
+}
+.summary-title{
+    padding: 5% 7%;
+    border-bottom: 1px solid grey;
+    font-weight: 800;
+    font-size: 1.2vw;
+}
+.cart-summary-text{
+    display: flex;
+    padding: 3% 7%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+.summary-side-1{
+    min-width: 70%;
+    display: flex;
+    justify-content: start;
+}
+.summary-side-2{
+   min-width: 40%;
+    display: flex;
+    justify-content: end;
+}
+.cart-total-price{
+    border: none;
+}
+.cart-total-price, .cart-total-text{
+    font-weight: 600;
+}
+
+/* @media screen and (min-width: 450px) {
+    .cart-total-price, .cart-total-text{
+        font-weight: 400;
+    }
+} */

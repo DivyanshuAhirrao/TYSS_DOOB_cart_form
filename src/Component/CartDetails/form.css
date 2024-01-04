@@ -1,0 +1,102 @@
+#form-main{
+    width: 95%;
+    padding-top: 2.8vw;
+    padding-bottom: 2.8vw;
+}
+#form-box{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+.fullname{
+    display: flex;
+    gap: 2vw;
+}
+.fullname-side-1, .fullname-side-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9vw;
+    gap: 0.5vw;
+}
+input{
+    height: 1.8vw;
+}
+
+/* Captcha */
+
+.captcha-box{
+    width: 100%;
+}
+.cap-left, .cap-right{
+    width: 50%;
+}
+.captcha-main{
+    height: 5vw;
+    width: 90%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#check-box{
+    width: 5vw;
+}
+.check-box-content{
+    display: flex;
+    align-items: center;
+    color: rgba(240, 248, 255, 0.726);
+}
+.captcha-details{
+    padding-right: 1vw;
+}
+.captcha-img{
+    font-size: 1.8vw;
+    position: relative;
+    right: -0.77vw;
+}
+.cap-text{
+    font-size: 0.6vw;
+    color: aliceblue;
+}
+.cap-privacy{
+    font-size: 0.48vw;
+    
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Submit Button */
+
+.submit-box{
+    height: 5vw;
+    width: 100%;
+    background-color: rgba(236, 236, 236, 0.555);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.submit-btn{
+    position: relative;
+    right: 2vw;
+    padding: 0.52% 3%;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background-color: #82B440;
+    color: white;
+    font-weight: 600;
+    font-size: 0.89vw;
+}
